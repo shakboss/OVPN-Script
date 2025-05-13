@@ -33,7 +33,7 @@ while true; do
         1)
             echo -e "${ORANGE}Installing OpenVPN Classic...${NC}"
             clear
-            wget https://raw.githubusercontent.com/FasterExE/OVPN-Script-Classic/main/setup1.sh > /dev/null 2>&1
+            wget https://raw.githubusercontent.com/shakboss/OVPN-Script-Classic/main/setup1.sh > /dev/null 2>&1
             if [ $? -eq 0 ]; then
                 bash setup1.sh
                 rm setup1.sh > /dev/null 2>&1
@@ -44,7 +44,7 @@ while true; do
         2)
             echo -e "${ORANGE}Installing OpenVPN V3...${NC}"
             clear
-            wget https://raw.githubusercontent.com/FasterExE/OVPN-Script-V3/main/setup2.sh > /dev/null 2>&1
+            wget https://raw.githubusercontent.com/shakboss/OVPN-Script-V3/main/setup2.sh > /dev/null 2>&1
             if [ $? -eq 0 ]; then
                 bash setup2.sh
                 rm setup2.sh > /dev/null 2>&1
